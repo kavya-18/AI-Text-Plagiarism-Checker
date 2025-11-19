@@ -12,36 +12,38 @@ Simple tool to detect AI-generated text, check writing originality, and find pla
 - pip installed
 
 ### 1️: Clone & Install Backend
+```
 git clone https://github.com/yourusername/AI-Text-Plagiarism-Checker.git
 
 cd AI-Text-Plagiarism-Checker/server
 
 pip install -r requirements.txt
-
+```
 ### 2️ Start Backend Server
+```
 python app.py
-
+```
 
 Backend runs at: http://127.0.0.1:5000
 
 ### 3️ Install & Start Frontend
-cd ../src
+```
 npm install
 npm start
-
+```
 
 Frontend runs at: http://localhost:3000
 
 ## How to Use
 ### **Step 1: Enter Text or Upload File**
 
-You can provide text by:
+- You can provide text by:
 
-Typing or pasting into the text box
+- Typing or pasting into the text box
 
-Uploading .pdf, .docx, or .txt files
+- Uploading .pdf, .docx, or .txt files
 
-The system extracts the text automatically.
+- The system extracts the text automatically.
 
 ### **Step 2: Run Analysis**
 
@@ -49,9 +51,9 @@ Click Analyze to get results:
 
 **AI Detection**
 
-Human vs AI probability
+- Human vs AI probability
 
-Color-coded sentence markings
+- Color-coded sentence markings
 
 🟢 Human-like
 
