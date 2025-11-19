@@ -1,9 +1,9 @@
-AI Text & Plagiarism Checker
+# AI Text & Plagiarism Checker
 
 Simple tool to detect AI-generated text, check writing originality, and find plagiarism/similarity in assignments.
 
-Quick Start Guide
-**Prerequisites**
+## Quick Start Guide
+### Prerequisites
 
 Python 3.8+
 
@@ -11,18 +11,18 @@ Node.js 16+
 
 pip installed
 
-1️ Clone & Install Backend
+### 1️ Clone & Install Backend
 git clone https://github.com/yourusername/AI-Text-Plagiarism-Checker.git
 cd AI-Text-Plagiarism-Checker/server
 pip install -r requirements.txt
 
-2️ Start Backend Server
+### 2️ Start Backend Server
 python app.py
 
 
 Backend runs at: http://127.0.0.1:5000
 
-3️ Install & Start Frontend
+### 3️ Install & Start Frontend
 cd ../src
 npm install
 npm start
@@ -30,8 +30,8 @@ npm start
 
 Frontend runs at: http://localhost:3000
 
-### How to Use
-**Step 1: Enter Text or Upload File**
+## How to Use
+### **Step 1: Enter Text or Upload File**
 
 You can provide text by:
 
@@ -41,7 +41,7 @@ Uploading .pdf, .docx, or .txt files
 
 The system extracts the text automatically.
 
-**Step 2: Run Analysis**
+### **Step 2: Run Analysis**
 
 Click Analyze to get results:
 
@@ -55,7 +55,7 @@ Color-coded sentence markings
 
 🔴 AI-like
 
-**Step 3: Plagiarism / Similarity Check**
+### **Step 3: Plagiarism / Similarity Check**
 
 The app checks:
 
@@ -90,7 +90,7 @@ Duplicate Paragraphs Found
 
 Sentences marked as repetitive
 
-### Technical Architecture
+## Technical Architecture
 **Backend**
 
 Python + Flask
