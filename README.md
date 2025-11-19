@@ -128,7 +128,4 @@ project/
 
 │── requirements.txt
 
-Author
 
-Kavya Parige
-AI Engineer – NLP | LLMs | RAG | MLOps
