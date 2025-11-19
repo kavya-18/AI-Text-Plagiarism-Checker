@@ -5,15 +5,17 @@ Simple tool to detect AI-generated text, check writing originality, and find pla
 ## Quick Start Guide
 ### Prerequisites
 
-Python 3.8+
+- Python 3.8+
 
-Node.js 16+
+- Node.js 16+
 
-pip installed
+- pip installed
 
-### 1️ Clone & Install Backend
+### 1️: Clone & Install Backend
 git clone https://github.com/yourusername/AI-Text-Plagiarism-Checker.git
+
 cd AI-Text-Plagiarism-Checker/server
+
 pip install -r requirements.txt
 
 ### 2️ Start Backend Server
@@ -57,67 +59,71 @@ Color-coded sentence markings
 
 ### **Step 3: Plagiarism / Similarity Check**
 
-The app checks:
+**The app checks:**
 
-Repeated paragraphs
+- Repeated paragraphs
 
-High similarity sections
+- High similarity sections
 
-Internal plagiarism inside the document
+- Internal plagiarism inside the document
 
-Writing style consistency
+- Writing style consistency
 
-Results include:
+**Results include:**
 
-Overall similarity score
+- Overall similarity score
 
-Highlighted suspicious text
+- Highlighted suspicious text
 
-Output Examples
+### **Output Examples**
 **AI Detection**
 
-AI Probability: 72%
+- AI Probability: 72%
 
-Human Probability: 28%
+- Human Probability: 28%
 
-Writing Category: Likely AI-Assisted
+- Writing Category: Likely AI-Assisted
 
 **Plagiarism**
 
-Similarity Score: 58%
+- Similarity Score: 58%
 
-Duplicate Paragraphs Found
+- Duplicate Paragraphs Found
 
-Sentences marked as repetitive
+- Sentences marked as repetitive
 
 ## Technical Architecture
 **Backend**
 
-Python + Flask
+1. Python + Flask
 
-HuggingFace Transformers (RoBERTa AI detector)
+2. HuggingFace Transformers (RoBERTa AI detector)
 
-Sentence-Transformers (MiniLM for similarity)
+3. Sentence-Transformers (MiniLM for similarity)
 
-PyTorch
+4. PyTorch
 
-PyPDF2 / python-docx for file extraction
+5. PyPDF2 / python-docx for file extraction
 
 **Frontend**
 
-React
+1. React
 
-Axios
+2. Axios
 
-Bootstrap
+3. Bootstrap
 
-Custom CSS
+4. Custom CSS
 
-Folder Structure
+### **Folder Structure**
 project/
+
 │── src/           # React frontend
+
 │── server/        # Flask backend
+
 │── README.md
+
 │── requirements.txt
 
 Author
